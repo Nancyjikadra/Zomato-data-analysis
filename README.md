@@ -1,58 +1,64 @@
-# Zomato Bangalore Sales Analysis Dashboard
+# Bistro Concept Feasibility & Launch Strategy Dashboard
 
 ![dashboard](https://github.com/user-attachments/assets/7e53ad19-83a8-44ec-98ad-8020679e9390)
 
-
 ## Overview
+This Power BI dashboard reframes Zomato Bangalore’s restaurant data as a **concept-testing tool** for a cloud kitchen by zomato, known as Bistro.  
+It analyses spend behaviour, customer engagement, cuisine demand and location hotspots to evaluate where and what kind of outlet would have the highest chance of success.
 
-The **Zomato Bangalore Sales Analysis Dashboard** provides a comprehensive view of sales data, customer preferences, and restaurant performance in Bangalore, India. This dashboard is designed to help stakeholders quickly identify key insights, trends, and areas for improvement in the city's food and beverage industry. The analysis covers various metrics such as cost per person, restaurant types, cuisine popularity, and booking trends.
+## Business Problem
+Zomato is exploring launching its own foodchain bistro.  
+Using existing restaurant data, we want to identify:
+- Which cuisine segments are underserved.
+- What price point and rating bands maximise customer engagement.
+- Which localities show the strongest potential for a new kitchen.
 
-## Features
+## Features & Insights
 
-### 1. Cost per Two Person
-- **Visualization:** Bar Chart
-- **Insight:** This chart displays the total cost incurred by customers for two people across different rating ranges. The highest cost is associated with restaurants rated 3.9/5.
+### 1. Average Spend per Visit by Rating
+*Bar Chart* – Shows average ticket size across rating bands to help decide the target price point for a new outlet.  
+**Insight:** Sweet spot is around ₹1.2M spend for 3.9–4.1 rated restaurants.
 
-### 2. Approximate Cost and Votes by Rate
-- **Visualization:** Scatter Plot
-- **Insight:** This scatter plot correlates the approximate cost for two persons with the number of votes received for different ratings. The trend suggests that higher-rated restaurants tend to have more votes, indicating customer satisfaction.
+### 2. Customer Engagement vs Price Point
+*Scatter Plot* – Correlates cost for two people with number of votes (a proxy for demand).  
+**Insight:** High-vote, mid-price restaurants cluster around the 3.9–4.3 rating band.
 
-### 3. Map of Restaurant Locations
-- **Visualization:** Map
-- **Insight:** A geographic map pinpoints various restaurant locations in Bangalore, providing a visual representation of the distribution of eateries across the city.
+### 3. Delivery vs Dine-in Supply Gap
+*Horizontal Bar Chart* – Quantifies service type supply.  
+**Insight:** Delivery dominates; potential gap exists for dine-in cafés in certain areas.
 
-### 4. Rates by Restaurant Type
-- **Visualization:** Donut Chart
-- **Insight:** This chart breaks down the types of restaurants (e.g., Quick Bites, Casual Dining) and shows the distribution of different restaurant types in Bangalore. The majority fall under the 'Quick Bites' category.
+### 4. Hotspot Map for New Kitchen Location
+*Map Visual* – Highlights restaurant concentration across Bangalore.  
+**Insight:** BTM Layout and Austin Town show dense clusters of high-engagement outlets.
 
-### 5. Rate by Cuisines
-- **Visualization:** Pie Chart
-- **Insight:** This pie chart illustrates the popularity of different cuisines based on customer ratings. Tibetan Momos, Tibetan Chinese Momos, and other Asian cuisines are the most popular.
+### 5. Rates by Restaurant Type
+*Donut Chart* – Distribution of customer visits by format (Quick Bites, Casual, Café, etc.).  
+**Insight:** Quick Bites account for ~37% share, suggesting strong demand for fast-service formats.
 
-### 6. Number of Addresses by Types
-- **Visualization:** Horizontal Bar Chart
-- **Insight:** This chart shows the count of addresses categorized by types such as Delivery, Dine-out, Desserts, and Cafes. Delivery services dominate the market with the highest number of addresses.
+### 6. Rate by Cuisines
+*Pie Chart* – Breaks down customer preference by cuisine.  
+**Insight:** Tibetan and Chinese cuisines together account for ~48% of popular outlets, signalling an opportunity for Asian-focused menus.
 
-### 7. Table Booking Trend
-- **Visualization:** KPI Gauge
-- **Insight:** The KPI gauge represents the number of table bookings. The current metric is at 51.72K, providing a quick glance at how often customers are booking tables.
+### 7. Booking Potential
+*KPI Gauge* – Shows total table bookings (~51.7K) as a measure of conversion potential for a new outlet.
 
-## Tools and Technologies Used
-- **Power BI:** The dashboard is built using Microsoft Power BI, which allows for interactive and visually engaging data representation.
-- **Data Source:** The data used in this dashboard is from Zomato, specifically focusing on the Bangalore region.
+## Tools and Technologies
+- **Power BI** for data modelling and visualisation.
+- **Zomato Bangalore Dataset** (publicly available).
+
+## Business Impact
+- Identified optimal **price bands** and **cuisine types** for a new concept.
+- Mapped **high-potential localities** for launching a bistro or cloud kitchen.
+- Quantified **service-type gaps** to inform the go-to-market strategy.
 
 ## How to Use
-1. **Interactive Exploration:** The dashboard is interactive, enabling users to hover over or click on different visual elements to see more detailed information.
-2. **Filters:** Users can apply filters to refine the data based on specific criteria, such as restaurant type or cuisine.
-
-## Insights & Recommendations
-- **Cost Efficiency:** Restaurants with a rating around 3.9/5 generate the highest revenue, suggesting that restaurants should aim for this rating range.
-- **Popular Cuisine:** Focusing on Tibetan and Chinese cuisines could attract more customers as they are the most popular in Bangalore.
-- **Restaurant Type:** Investing in quick service restaurants ('Quick Bites') could be beneficial as they represent a significant portion of the market.
+- Hover or click on visuals to drill down into specific cuisines, areas or price points.
+- Filter by restaurant type to see demand distribution in each segment.
 
 ## Future Enhancements
-- **Real-time Data:** Implementing real-time data integration to keep the dashboard updated with the latest trends.
-- **Customer Segmentation:** Adding segmentation based on customer demographics to provide more targeted insights.
+- Integrate real-time order and review data.
+- Add customer demographic segmentation for more precise targeting.
+- Build an ROI simulator to project revenue based on selected location/cuisine.
 
 ## Conclusion
-This Power BI dashboard provides a detailed analysis of the food and beverage landscape in Bangalore, aiding decision-makers in optimizing their operations, enhancing customer satisfaction, and driving business growth.
+This dashboard turns raw restaurant data into **actionable launch intelligence**, helping stakeholders de-risk new outlet decisions and align offerings with customer demand.
