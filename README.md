@@ -1,6 +1,6 @@
 # Bistro Concept Feasibility & Launch Strategy Dashboard
 
-![dashboard](https://github.com/user-attachments/assets/7e53ad19-83a8-44ec-98ad-8020679e9390)
+<img width="1068" height="600" alt="dashboard" src="https://github.com/user-attachments/assets/5fad2d9c-ea89-4aed-ae83-780671bf4dc4" />
 
 ## Overview
 This Power BI dashboard reframes Zomato Bangalore’s restaurant data as a **concept-testing tool** for a cloud kitchen by zomato, known as Bistro.  
